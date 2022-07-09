@@ -1,0 +1,18 @@
+div{
+    background-image: url(../9-6-2022/Nile-river-1024x459.jpg);
+padding-top: 150px;
+padding: 150px;
+}
+#khan{
+
+    background-image:url(../9-6-2022/Nile-river-1024x459.jpg);
+    width: 250; height: 300;
+    border: 10px solid green ;
+    border-style: dotted;
+    
+    border-radius: 50px;
+}
+body{
+
+    background-image: url(../8-6-2022/RhB_ABe_4-4_III_Kreisviadukt_Brusio.jpg);
+}

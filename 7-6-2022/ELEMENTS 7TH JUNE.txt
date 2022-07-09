@@ -1,0 +1,16 @@
+BLOCK ELEMENTS:
+1.BLOCK ELEMENTS ALWAYS START ON NEW LINE (BROWSER ADD SOME SPACE AROUND THE ELEMENT)
+2.BLOCK ELEMENTS TAKES UP THE ENTIRE WIDTH AVAILABLE.
+
+Here are the block-level elements in HTML:
+
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+
+IN-LINE ELEMENTS:
+1. INLINE ELEMENTS DO NOT START ON A NEW LINE
+2. IN LINE LEMENTS ONLY TAKES UP THE SIZE NECESSARY
+
+
+
+
+(BLOCK ELEMENTS CAN BE CONVERTED INTO IN LINE ELEMENTS USING CSS TOOL)

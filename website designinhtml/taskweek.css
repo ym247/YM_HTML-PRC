@@ -1,0 +1,48 @@
+.{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(35, 35, 35);
+}
+
+.navdiv{
+    height: 40px; width: 100%;
+    background-color: rgb(253, 12, 12);
+    display: inline-block;
+    position: relative;
+}
+#icon{
+    height: 20px;
+    width: 95px;
+    display: inline-block;
+    margin-top: 0px;
+    font-variant: small-caps;
+    font-size: larger;
+    color: beige;
+    font-weight: bolder;
+    text-align:left;
+    text-shadow: 2px 2px 10px black;
+    border: 5px double cornsilk;
+
+    
+}
+
+.navlinks{
+    margin-left: 20px;
+    width: 650px;
+    height: 45px;
+    display: inline-block;
+    text-align: justify;
+}
+.navlinks li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    color: whitesmoke;
+}
+#subm{
+    float: right;
+    display: inline-block;
+
+}

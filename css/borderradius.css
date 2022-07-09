@@ -1,0 +1,23 @@
+
+
+body{
+
+    background-color: aquamarine;
+}
+div
+{border: 5px double lime;
+    height: 500px;
+    width: 500px;
+
+border-top-right-radius: 250px;
+border-bottom-left-radius: 250px;
+border-top-left-radius: 250px;
+border-bottom-right-radius: 250px;
+ 
+
+}
+button{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 5px dotted green;
+}

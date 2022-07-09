@@ -1,0 +1,13 @@
+#para1{
+    text-align:center;
+    text-align-last: center;
+}
+#para2{
+    direction: rtl;
+}
+p.texttransform1{
+    text-transform: uppercase;
+}
+.shadw{
+    text-shadow: 2px 2px 20px;
+}

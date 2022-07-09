@@ -1,0 +1,15 @@
+radio 
+checkbox
+email
+password
+number
+text
+search
+date
+time
+file
+range
+colour
+url
+week
+time

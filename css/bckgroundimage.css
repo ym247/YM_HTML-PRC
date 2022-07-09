@@ -1,0 +1,14 @@
+#myname{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    background-image: url(https://battingwithbimal.com/wp-content/uploads/2020/09/307620.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+body{
+    background-image: url(../9-6-2022/Nile-river-1024x459.jpg);
+    background-repeat: no-repeat;
+}

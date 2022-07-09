@@ -1,0 +1,99 @@
+/* a:visited{
+    color: black;
+    background-color: azure;
+}
+a:link{
+    color: rgb(8, 80, 235);
+    background-color: azure;
+
+}
+a:hover{
+    color: rgb(228, 11, 11);
+    background-color: blue;
+}
+a:active{
+    color: darkgreen;
+    background-color: black;
+} */
+form {
+    border: 2px solid black;
+    width: fit-content;
+    background-image: url(../RhB_ABe_4-4_III_Kreisviadukt_Brusio.jpg);
+    background-size: cover;
+
+}
+
+input[type="text"]:focus {
+    border: 4px solid red;
+}
+
+input[type="number"]:focus {
+    border: 4px solid red;
+
+}
+
+input[type="Email"]:focus {
+    border: 4px solid red;
+}
+
+
+
+/* input[type="radio"]:focus{ */
+input[type="radio"]:focus+span {
+    /* box-shadow: 0px 0px 5px 3px red; */
+    color: red;
+}
+
+/* input[type="checkbox"]:focus{ */
+input[type="checkbox"]:focus+span {
+    /* box-shadow: 0px 0px 5px 3px red; */
+    color: red;
+}
+
+
+input:disabled {
+    border: 4px solid red;
+}
+
+input:enabled {
+    border: 4px solid rgb(155, 66, 66);
+}
+
+input:required {
+    border: 4px solid rgb(85, 227, 53);
+}
+
+input:optional {
+    border: 4px solid rgb(43, 177, 110);
+}
+
+input:in-range {
+    box-shadow: 0px 0px 5px 3px rgb(111, 3, 86);
+}
+
+input:read-only {
+    border: 4px solid rgb(189, 233, 33);
+}
+
+input:read-write {
+    border: 4px solid rgb(130, 149, 62);
+}
+
+input:valid {
+    border: 4px solid rgb(28, 28, 41);
+
+}
+
+input:invalid {
+    border: 4px solid rgb(177, 96, 96);
+
+}
+
+input:checked {
+    box-shadow: 0px 0px 5px 3px rgb(24, 168, 212);
+
+}
+
+input:default {
+    box-shadow: 0px 0px 5px 3px rgb(24, 168, 212);
+}

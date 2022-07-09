@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sunearth</title>
+    <style>
+      .parent {
+        background-color: blueviolet;
+        width: 1200px;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        background-image: url(https://wallpaperaccess.com/full/31367.jpg);
+      }
+      .sun {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        background-image: url(https://images3.alphacoders.com/150/thumbbig-150179.jpg);
+      }
+
+      .earth {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+        top: 600px;
+        left: 0;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: rotateearth;
+        animation-duration: 10s;
+        background-image: url(https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+        background-size: 100%;
+        background-repeat: no-repeatb;
+      }
+      @keyframes rotateearth {
+        0% {
+          top: 500px;
+          left: 0;
+        }
+        25% {
+          top: 500px;
+          left: 500px;
+        }
+        50% {
+          top: 500px;
+          left: 1050px;
+        }
+        75% {
+          top: 500px;
+          left: 500px;
+          z-index: 1;
+        }
+        100% {
+          top: 500px;
+          left: 0;
+          z-index: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="sun"></div>
+      <div class="earth"></div>
+    </div>
+  </body>
+</html>

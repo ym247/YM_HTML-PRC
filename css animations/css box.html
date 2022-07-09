@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #cssbox {
+      height: 200px;
+      width: 300px;
+      background-color: lime;
+      border-radius: 50px;
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: brown;
+      font-weight: 900;
+      font-size: xx-large;
+      animation-name: cssbox;
+      animation-duration: 10s;
+      position: absolute;
+      animation-iteration-count: 3;
+    }
+
+    @keyframes cssbox {
+      0% {
+        top: 0;
+        left: 0;
+      }
+      10% {
+        top: 0;
+        left: 600px;
+        transform: rotate(45deg);
+      }
+      50% {
+        top: 0;
+        left: 100%;
+        transform: rotate(0deg);
+      }
+      100% {
+        top: 0;
+        left: 0;
+        transform: rotate(-365deg);
+      }
+    }
+  </style>
+  <body>
+    <div id="cssbox">css</div>
+  </body>
+</html>

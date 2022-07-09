@@ -1,0 +1,8 @@
+div{
+    height:500px;
+    width:200px;
+
+    background-image: url(/images/Nile-river-1024x459.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}

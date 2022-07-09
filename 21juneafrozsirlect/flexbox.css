@@ -1,0 +1,79 @@
+.common{
+    width:30%;
+/* height: 40px; */
+margin: 0px;
+background-color: darkseagreen;
+border: 3px solid gold;
+
+}
+.parent{
+height: 400px;
+width: 100%;
+background-color: greenyellow;
+/* display: flex;     to convert a container into flex box */
+/* flex-wrap: wrap;   /*to avoid child elements getting shrinked in flex container */
+/* flex-wrap: nowrap; */ /*to let the child elements shrink and adjust in arow*/
+/* flex-direction: row;                         /* to align child elements in a row        *and for reverse row flxdrctn revrow */
+/* flex-direction: column; */                        /*to align child elements in clounm.*/
+/* flex-direction: column-reverse; */               /*to align child elements in reverse-clounm.*/
+
+
+
+
+/* justifycontent...horizantally centering */
+/* justify-content:center */
+
+
+/* .......alignment content verically centre.... */
+
+/* flex-wrap: wrap; */
+/* align-items: center; */
+
+/* align-items: flex-start; */
+
+
+/* align-items: flex-end; */
+
+/* justify-content: flex-start; */
+
+/* justify-content: flex-end; */
+
+
+
+
+/* flex-flow:column wrap;    shorthand for flex direction and flex wrap */
+
+
+
+
+/*flex grow.....*/  /* elements with the flex grow value will takeup the available with in arow in a given proportion
+
+}
+.one{
+
+    flex-grow: 1;
+}
+.two{
+    /* flex-grow: 2; */
+    /* flex-grow: 1; */  
+
+display: flex;
+/* align-items: center; */
+
+/* align-items: stretch; */
+
+/* align-items: flex-end; */
+/* align-items: baseline; */ 
+/* align-content:space-between */
+
+
+
+
+
+
+}
+.common{
+
+    display: flex;
+    align-self:center;
+}
